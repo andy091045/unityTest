@@ -11,7 +11,7 @@ public class RedCube : MonoBehaviour
         
     }
 
-    // Update is called once per frame
+    // Update is called once per framex
     void Update()
     {
         transform.position += Time.deltaTime * transform.forward * speed ;
